@@ -1,0 +1,311 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Maggie's CS Project</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript">
+	    </script>
+	    <script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+	    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	</head>
+	<body>
+		<div class="title">
+			<center><marquee direction="up"><h1 style="margin-left: 33%;">Welcome to Maggie's CS website!</h1></marquee></center>
+		</div>
+		<a href="https://docs.google.com/document/d/10yxCtIEcBOboyoG4cQ7z8m4bM7EIFWZOMEeaGf-uARI/edit?usp=sharing" target="blank"><h2 class="uml">UML Diagram</h2></a>
+		<h2 id="interfaceButton">Metal Item Interface Code</h2>
+		<center><img src="CSFinal/MetalItemInterface.png" class="interface"></center>
+		<h2 id="instrumentButton">Instrument Superclass Code</h2>
+		<div class = "superclass">
+			<center>
+			<img src="CSFinal/Instrument1.png" style="width:65%;height:65%;">
+			<img src="CSFinal/Instrument2.png" style="width:65%;height:65%;">
+			<img src="CSFinal/Instrument3.png" style="width:65%;height:35%;">
+			</center>
+		</div>
+		<h2 id ="subclassButton">Brass and Woodwind Instrument Subclass Code</h2>
+		<div class="subclass">
+			<center>
+			<img src="CSFinal/BrassInstrument.png">
+			<img src="CSFinal/WoodwindInstrument.png">
+			</center>
+		</div>
+		<h2 id="populationButton">Population Code</h2>
+		<div class="population">
+			<center>
+			<img src="CSFinal/Population.png">
+			</center>
+		</div>
+
+		<h2 id="driverButton">Driver Code</h2>
+		<div class="driver">
+			<h3 id="IDButton">Instrument Driver</h3>
+				<div class="IDButton">
+					<img src="CSFinal/InstrumentDriver1.png" style="width:75%;height:75%;">
+					<img src="CSFinal/InstrumentDriver2.png" style="width:75%;height:45%;">
+				</div>
+			<h3 id="BDButton">Brass Instrument Driver</h3>
+				<div class="BDButton">
+					<img src="CSFinal/BIDriver.png">
+				</div>
+			<h3 id="WDButton">Woodwind Instrument Driver</h3>
+				<div class="WDButton">
+					<img src="CSFinal/WIDriver.png">
+				</div>
+			<h3 id="PDButton">Population Driver</h3>
+				<div class="PDButton">
+					<img src="CSFinal/PopDriver.png" style="width:75%;height:75%;">
+				</div>
+		</div>
+		<h2 id="implementationButton">Implementation Examples</h2>
+		<div class="implementation">
+			<center>
+				<img src="CSFinal/implementation1.png" style="width:50%;height:40%;">
+				<img src="CSFinal/implementation2.png" style="width:50%;height:80%;">
+				<img src="CSFinal/implementation3.png" style="width:50%;height:70%;">
+			</center>
+		</div>
+		<a href="https://docs.google.com/document/d/1g1e4FQuh6SPw4_DTEVpjo417K9dWwUzxB0w2hL44LvI/edit?usp=sharing" target="blank"><h2 class="html">HTML Code</h2></a>
+	</body>
+	<style>
+		body {
+			font-family: 'Muli', sans-serif;
+			background-image: url("CSFinal/SM.png"); 
+			background-repeat: repeat;
+			color: white;
+		}
+		.interface {
+			display: none;
+		}
+		.uml {
+			margin-left: 15%;
+		}
+		.html {
+			margin-left: 15%;
+		}
+		.superclass {
+			display: none;
+		}
+		.subclass {
+			display: none;
+		}
+		.population {
+			display: none;
+		}
+		#interfaceButton {
+			margin-left: 15%;
+		}
+		#interfaceButton:hover {
+			color: orange;
+		}
+		#implementationButton {
+			margin-left: 15%;
+		}
+		#implementationButton:hover {
+			color: #ff33cc;
+		}
+		#instrumentButton {
+			margin-left: 15%;
+		}
+		#instrumentButton:hover {
+			color: yellow;
+		}
+		#subclassButton {
+			margin-left: 15%;
+		}
+		#subclassButton:hover {
+			color: #00ff00;
+		}
+		#populationButton {
+			margin-left: 15%;
+		}
+		#populationButton:hover {
+			color: #6699ff;
+		}
+		#driverButton {
+			margin-left: 15%;
+		}
+		#driverButton:hover {
+			color: #cc33ff;
+		}
+		#IDButton {
+			display: none;
+			margin-left: 20%;
+
+		}
+		#IDButton:hover {
+			color: #3366ff;
+		}
+		#BDButton {
+			display: none;
+			margin-left: 20%;
+		}
+		#BDButton:hover {
+			color: #33cc33;
+		}
+		#WDButton {
+			display: none;
+			margin-left: 20%;
+		}
+		#WDButton:hover {
+			color: #ffff00;
+		}
+		#PDButton {
+			display: none;
+			margin-left: 20%;
+		}
+		#PDButton:hover {
+			color: orange;
+		}
+		.IDButton {
+			display: none;
+			margin-left: 20%;
+		}
+		.BDButton {
+			display: none;
+			margin-left: 20%;
+		}
+		.WDButton {
+			display: none;
+			margin-left: 20%;
+		}
+		.PDButton {
+			display: none;
+			margin-left: 20%;
+		}
+		.implementation {
+			display: none;
+		}
+		a:visited {
+		    color: white;
+		    background-color: transparent;
+		    text-decoration: none;
+		}
+		a:hover {
+		    color: red;
+		    background-color: transparent;
+		    text-decoration: underline;
+		}
+		.title {
+			background: linear-gradient(to right, #2eb8b8, #cc33ff);
+		}
+	</style>
+	<script>
+		$(document).ready(function(){
+		  $("#interfaceButton").click(function(){
+		    $("div.superclass").hide();
+		    $("div.subclass").hide();
+		    $("div.population").hide();
+		    $(".driver").hide();
+		    $("div.implementation").hide(); 
+		    $(".interface").toggle();    
+		  });
+		});
+		$(document).ready(function(){
+		  $("#instrumentButton").click(function(){
+		    $(".interface").hide();
+		    $("div.subclass").hide();
+		    $("div.population").hide();
+		    $(".driver").hide();
+		    $("div.implementation").hide();
+		    $("div.superclass").toggle();    
+		  });
+		});
+		$(document).ready(function(){
+		  $("#subclassButton").click(function(){
+		    $(".interface").hide();
+		    $("div.superclass").hide();
+		    $("div.population").hide();
+		    $(".driver").hide();
+		    $("div.implementation").hide();
+		    $("div.subclass").toggle();    
+		  });
+		});
+		$(document).ready(function(){
+		  $("#populationButton").click(function(){
+		    $(".interface").hide();
+		    $("div.superclass").hide();
+		    $("div.subclass").hide();  
+		    $(".driver").hide(); 
+		    $("div.implementation").hide();
+		    $("div.population").toggle(); 
+		  });
+		});
+		$(document).ready(function(){
+		  $("#driverButton").click(function(){
+		    $(".interface").hide();
+		    $("div.superclass").hide();
+		    $("div.subclass").hide();   
+		    $("div.population").hide();
+		    $("div.implementation").hide();
+		    $("div.BDButton").hide();
+		    $("div.PDButton").hide();
+		    $("div.WDButton").hide();
+		    $("div.IDButton").hide();
+		    $("#IDButton").toggle();
+		    $("#BDButton").toggle(); 
+		    $("#WDButton").toggle();
+		    $("#PDButton").toggle();
+		  });
+		});
+		$(document).ready(function(){
+		  $("#IDButton").click(function(){
+		    $(".interface").hide();
+		    $("div.superclass").hide();
+		    $("div.subclass").hide();   
+		    $("div.population").hide();
+		    $("div.BDButton").hide();
+		    $("div.PDButton").hide();
+		    $("div.WDButton").hide();
+		    $("div.IDButton").toggle();
+		  });
+		});
+		$(document).ready(function(){
+		  $("#BDButton").click(function(){
+		    $(".interface").hide();
+		    $("div.superclass").hide();
+		    $("div.subclass").hide();   
+		    $("div.population").hide();
+		    $("div.IDButton").hide();
+		    $("div.PDButton").hide();
+		    $("div.WDButton").hide();
+		    $("div.BDButton").toggle();
+		  });
+		});
+		$(document).ready(function(){
+		  $("#WDButton").click(function(){
+		    $(".interface").hide();
+		    $("div.superclass").hide();
+		    $("div.subclass").hide();   
+		    $("div.population").hide();
+		    $("div.BDButton").hide();
+		    $("div.PDButton").hide();
+		    $("div.IDButton").hide();
+		    $("div.WDButton").toggle();
+		  });
+		});
+		$(document).ready(function(){
+		  $("#PDButton").click(function(){
+		    $(".interface").hide();
+		    $("div.superclass").hide();
+		    $("div.subclass").hide();   
+		    $("div.population").hide();
+		    $("div.BDButton").hide();
+		    $("div.IDButton").hide();
+		    $("div.WDButton").hide();
+		    $(".PDButton").toggle();
+		  });
+		});
+		$(document).ready(function(){
+		  $("#implementationButton").click(function(){
+		    $(".interface").hide();
+		    $("div.superclass").hide();
+		    $("div.subclass").hide();  
+		    $(".driver").hide(); 
+		    $("div.population").hide();
+		    $("div.implementation").toggle(); 
+		  });
+		});
+
+	</script>
+</html>
